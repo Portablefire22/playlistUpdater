@@ -20,3 +20,6 @@ cd $playlistName
 arguments="'yt-dlp --embed-thumbnail --embed-metadata --extract-audio --audio-format mp3 --audio-quality 0 --sponsorblock-remove all ${playlistUrl}'"
 echo $arguments
 sh -c "yt-dlp --embed-thumbnail --embed-metadata --extract-audio --audio-format mp3 --audio-quality 0 --sponsorblock-remove all -o '%(title)s.%(ext)s' ${playlistUrl}"
+
+### TODO
+#    Copy the folder contents to phone, I'm using KDE so apparently it isn't as easy as gnome
